@@ -1,7 +1,7 @@
 # NimbleKeys
 
 <p align="center">
-  <img src="./assets/logo.png" alt="NimbleKeys Logo" width="150">
+  <img src="./assets/logo.png" alt="NimbleKeys Logo" width="600">
 </p>
 
 A modern, minimalist typing test inspired by MonkeyType. Sharpen your typing speed and accuracy with a clean, distraction-free interface.
