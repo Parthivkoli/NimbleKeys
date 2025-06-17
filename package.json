@@ -1,13 +1,19 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "nimble-keys",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A modern, minimalist typing test inspired by MonkeyType",
   "type": "module",
-  "scripts": {
+  "homepage": "https://Parthivkoli.github.io/NimbleKeys",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Parthivkoli/NimbleKeys.git"
+  },  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",

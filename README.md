@@ -2,6 +2,9 @@
 
 A modern, minimalist typing test inspired by MonkeyType. Improve your typing speed and accuracy with our clean, distraction-free interface.
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Parthivkoli/NimbleKeys/deploy.yml?branch=main&style=flat-square)
+![GitHub License](https://img.shields.io/github/license/Parthivkoli/NimbleKeys?style=flat-square)
+
 ![NimbleKeys Screenshot](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=NimbleKeys+Typing+Test)
 
 ## ✨ Features
@@ -18,7 +21,7 @@ A modern, minimalist typing test inspired by MonkeyType. Improve your typing spe
 
 ## 🚀 Live Demo
 
-Visit [NimbleKeys](https://nimblekeys.netlify.app) to start improving your typing skills!
+Visit [NimbleKeys GitHub Pages](https://parthivkoli.github.io/NimbleKeys/) to start improving your typing skills!
 
 ## 🛠️ Tech Stack
 
@@ -26,7 +29,7 @@ Visit [NimbleKeys](https://nimblekeys.netlify.app) to start improving your typin
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
 - **Build Tool**: Vite
-- **Deployment**: Netlify
+- **Deployment**: GitHub Pages
 
 ## 📦 Installation
 
@@ -47,6 +50,25 @@ npm run dev
 ```
 
 4. Open your browser and navigate to `http://localhost:5173`
+
+## 🚀 Deployment
+
+This project is set up for automatic deployment to GitHub Pages using GitHub Actions. When you push to the `main` branch, the workflow will automatically build and deploy your site.
+
+### Manual Deployment
+
+If you want to deploy manually:
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. Deploy the `dist` folder to GitHub Pages or any static hosting service.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🏗️ Build for Production
 
