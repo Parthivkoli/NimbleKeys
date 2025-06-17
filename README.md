@@ -1,149 +1,156 @@
 # NimbleKeys
 
-A modern, minimalist typing test inspired by MonkeyType. Improve your typing speed and accuracy with our clean, distraction-free interface.
+<p align="center">
+  <img src="./assets/logo.png" alt="NimbleKeys Logo" width="150">
+</p>
+
+A modern, minimalist typing test inspired by MonkeyType. Sharpen your typing speed and accuracy with a clean, distraction-free interface.
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Parthivkoli/NimbleKeys/deploy.yml?branch=main&style=flat-square)
 ![GitHub License](https://img.shields.io/github/license/Parthivkoli/NimbleKeys?style=flat-square)
 
-![NimbleKeys Screenshot](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=NimbleKeys+Typing+Test)
+<p align="center">
+  <img src="./assets/UI.png" alt="NimbleKeys UI Screenshot" width="80%">
+</p>
+
+---
 
 ## ✨ Features
 
-- **Clean, Modern Interface**: Distraction-free design focused on your typing experience
-- **Multiple Test Modes**: 15s, 30s, 60s, or custom duration (up to 5 minutes)
-- **Real-time Statistics**: Live WPM, accuracy, character count, and error tracking
-- **Visual Feedback**: Color-coded letters (green for correct, red for incorrect)
-- **Dark/Light Theme**: Toggle between themes with your preference saved locally
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Smooth Animations**: Polished transitions and micro-interactions
-- **Keyboard Shortcuts**: Press `Esc` to restart test at any time
-- **Privacy-First**: No data collection, everything runs locally in your browser
+- **Minimalist, Modern UI**: Focused, distraction-free design.
+- **Multiple Test Modes**: 15s, 30s, 60s, or custom durations (1s–5min).
+- **Live Stats**: Real-time WPM, accuracy, character count, and error tracking.
+- **Visual Feedback**: Color-coded letters—green for correct, red for mistakes.
+- **Dark & Light Themes**: Toggle your preference, auto-saved.
+- **Responsive**: Looks great on desktop, tablet, and mobile.
+- **Smooth Animations**: Polished transitions and micro-interactions.
+- **Keyboard Shortcuts**: Press `Esc` to restart the test instantly.
+- **Privacy-First**: No data collection, everything runs locally.
+
+---
 
 ## 🚀 Live Demo
 
-Visit [NimbleKeys GitHub Pages](https://parthivkoli.github.io/NimbleKeys/) to start improving your typing skills!
+Try it now: [NimbleKeys GitHub Pages](https://parthivkoli.github.io/NimbleKeys/)
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 18 with TypeScript
+- **Frontend**: React 18 + TypeScript
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
-- **Build Tool**: Vite
+- **Build**: Vite
 - **Deployment**: GitHub Pages
+
+---
 
 ## 📦 Installation
 
-1. Clone the repository:
 ```bash
 git clone https://github.com/Parthivkoli/NimbleKeys.git
 cd NimbleKeys
-```
-
-2. Install dependencies:
-```bash
 npm install
-```
-
-3. Start the development server:
-```bash
 npm run dev
 ```
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
-4. Open your browser and navigate to `http://localhost:5173`
+---
 
 ## 🚀 Deployment
 
-This project is set up for automatic deployment to GitHub Pages using GitHub Actions. When you push to the `main` branch, the workflow will automatically build and deploy your site.
+This project is set up for automatic deployment to GitHub Pages via GitHub Actions.  
+Pushing to the `main` branch will build and deploy your site.
 
-### Manual Deployment
-
-If you want to deploy manually:
-
-1. Build the project:
+**Manual Deployment:**
 ```bash
 npm run build
+# Deploy the contents of the dist/ directory to your static host or GitHub Pages
 ```
 
-2. Deploy the `dist` folder to GitHub Pages or any static hosting service.
+---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🏗️ Build for Production
+## 🏗️ Production Build
 
 ```bash
 npm run build
 ```
+The production-ready files will be in the `dist` directory.
 
-The built files will be in the `dist` directory, ready for deployment.
+---
 
 ## 🎯 How to Use
 
-1. **Choose Your Mode**: Select from 15s, 30s, 60s, or set a custom duration
-2. **Start Typing**: Click on the text area or simply start typing to begin
-3. **Focus on Accuracy**: Green letters indicate correct typing, red indicates errors
-4. **Track Progress**: Monitor your WPM, accuracy, and other stats in real-time
-5. **Restart Anytime**: Press `Esc` or click the restart button to try again
+1. **Choose a Mode**: 15s, 30s, 60s, or custom (up to 5min).
+2. **Start Typing**: Click the text area or begin typing.
+3. **Watch Accuracy**: Green = correct, Red = error.
+4. **Monitor Stats**: Live WPM and accuracy update as you type.
+5. **Restart**: Press `Esc` or click the restart button anytime.
+
+---
 
 ## 🎨 Customization
 
-### Themes
-- Toggle between light and dark themes using the theme button in the header
-- Your preference is automatically saved and restored on your next visit
+- **Themes**: Toggle dark/light mode via the header. Your choice is remembered.
+- **Test Duration**: Select a preset or set your own (1s–5min). Last used mode is remembered.
 
-### Test Duration
-- Choose from preset durations (15s, 30s, 60s)
-- Set custom duration from 1 second to 5 minutes
-- Your last selected mode is remembered for future sessions
+---
 
 ## 📊 Statistics Explained
 
-- **WPM (Words Per Minute)**: Standard typing speed measurement (1 word = 5 characters)
+- **WPM (Words Per Minute)**: 1 word = 5 characters
 - **Accuracy**: Percentage of correctly typed characters
-- **Characters**: Total number of characters typed
-- **Errors**: Number of incorrect keystrokes
-- **Time**: Remaining time in the current test
+- **Characters**: Total typed
+- **Errors**: Incorrect keystrokes
+- **Time**: Time left in the test
+
+---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how you can help:
+We welcome contributions!
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
+1. Fork the repo
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Commit and push: `git commit -m "Description"` → `git push origin feature/your-feature`
+4. Open a Pull Request
 
-### Development Guidelines
+**Guidelines:**
+- Follow existing code style and conventions.
+- Write meaningful commit messages.
+- Test changes thoroughly.
+- Update documentation if needed.
 
-- Follow the existing code style and conventions
-- Write meaningful commit messages
-- Test your changes thoroughly
-- Update documentation if needed
+---
 
 ## 🐛 Bug Reports
 
-Found a bug? Please open an issue on GitHub with:
-- Description of the bug
+Found a bug?  
+Please [open an issue](https://github.com/Parthivkoli/NimbleKeys/issues) with:
+- A clear description
 - Steps to reproduce
-- Expected vs actual behavior
-- Browser and device information
+- Expected vs. actual behavior
+- Browser and device info
+
+---
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
 
 ## 🙏 Acknowledgments
 
-- Inspired by [MonkeyType](https://monkeytype.com) for the clean, focused design
-- Built with modern web technologies for optimal performance
-- Thanks to the open-source community for the amazing tools and libraries
+- Inspired by [MonkeyType](https://monkeytype.com)
+- Built with modern open-source tools
+- Thanks to the OSS community for making this possible
+
+---
 
 ## 📞 Contact
 
 - GitHub: [@Parthivkoli](https://github.com/Parthivkoli)
-- Email: contact@nimblekeys.dev
 
 ---
 
